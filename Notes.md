@@ -29,3 +29,9 @@
  - Save document as a csv file
   - When document is saved as a "csv" file, it can opened by the application "Numbers" on Macs
   - When opened on this application, it is organized into the 3 "sender, recipient, date" coloumns
+
+
+## OpenRefine
+ - Had problems at first downloading this program
+ - Had to go to the github link then download from there. Make sure OpenRefine is working in your browser
+ - Steps include: choosing file, creating project with new name, 
