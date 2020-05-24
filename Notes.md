@@ -4,5 +4,5 @@
  
  - This link gives all the shortcuts in terms of regular expressions (great tool)
  
- - [ https://jdhao.github.io/2019/02/28/sublime_text_regex_cheat_sheet/]
+ - https://jdhao.github.io/2019/02/28/sublime_text_regex_cheat_sheet/
  
