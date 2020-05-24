@@ -8,4 +8,24 @@
  - Searches for certain word, but highlights the entire line where the word exists
   - .+\bto\b.+
  
+ - Insert a character or phrase within the line containe "to'
+  - Find: (.+\<to\>)
+  - Replace: ~\1
+    - this command put a "~" at the beginning of every line
+    
+ - When deleting all lines without a tilde in front of them
+  - Find: \n[^~]+
+  - Replace: \n
+  
+ - After several of these steps, I have compacted 55000 lines from the original text to about 1000 lines desired from the original text
  
+ - In this example on the Republic of Texas, for each line that started with a tilde, we wanted to fix the end of the lines where the dates and pages reside. 
+ - Find: (,)( [0-9]{4})(.+)
+ - Replace: \2
+   - This command got rid of the page numbers and just kept the dates (the 2nd part of this series)
+   
+ - Insert "Sender, Recipient, Date" on a new line 1
+ 
+ - Save document as a csv file
+  - When document is saved as a "csv" file, it can opened by the application "Numbers" on Macs
+  - When opened on this application, it is organized into the 3 "sender, recipient, date" coloumns
