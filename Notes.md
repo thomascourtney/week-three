@@ -34,4 +34,18 @@
 ## OpenRefine
  - Had problems at first downloading this program
  - Had to go to the github link then download from there. Make sure OpenRefine is working in your browser
- - Steps include: choosing file, creating project with new name, 
+ - Steps include: choosing file, creating project with new name
+ 
+ - Click option "Facet", then 'Text Facet', a box with all the names then appears on the left coloumn
+ - Click option "cluster", then play around with the different options available
+ - Two names that are supposed to be together but might be seperated due to a little error can be merrged by selecting the 'Merge', then 'Merge Selected and Re Cluster'
+ 
+ - By merging these different inputs, the number of recipients should reduce significantly
+ 
+ - Finishing the cleaning of the data:
+   - Edit Cells
+   - Common Trasnforms
+   - Trim leading and trailing whitespace
+   
+ - This process had to done for both sender and recipient in this example
+   - From there, 'Export' file to return it to a csv file
